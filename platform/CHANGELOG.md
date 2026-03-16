@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.1.25](https://github.com/archestra-ai/archestra/compare/platform-v1.1.24...platform-v1.1.25) (2026-03-16)
+
+
+### Bug Fixes
+
+* Grafana cost panels and UI sidebar gutter ([#3392](https://github.com/archestra-ai/archestra/issues/3392)) ([cae9b8c](https://github.com/archestra-ai/archestra/commit/cae9b8cd96f1ba9d46cba242480a347de60acd20))
+* model override label and reset button in conversation view ([#3389](https://github.com/archestra-ai/archestra/issues/3389)) ([836d467](https://github.com/archestra-ai/archestra/commit/836d4672a15a4b83bc681717163208fba32e1507))
+* persist message on error ([#3391](https://github.com/archestra-ai/archestra/issues/3391)) ([e9412e2](https://github.com/archestra-ai/archestra/commit/e9412e23d7fa1022ad814c36ce4714500fce8b56))
+* retry on transient errors, save user message on error, and fix it's retry/edit button ([#3388](https://github.com/archestra-ai/archestra/issues/3388)) ([e2e0bd3](https://github.com/archestra-ai/archestra/commit/e2e0bd3ac5a36a10b48e0e1a94348922353c4a42))
+
+
+### Miscellaneous Chores
+
+* clean up test logging ([#3387](https://github.com/archestra-ai/archestra/issues/3387)) ([6c74427](https://github.com/archestra-ai/archestra/commit/6c74427e7ae143f5aad2d77ee3c13dce445ecb30))
+
 ## [1.1.24](https://github.com/archestra-ai/archestra/compare/platform-v1.1.23...platform-v1.1.24) (2026-03-16)
 
 
