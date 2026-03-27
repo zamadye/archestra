@@ -67,6 +67,7 @@ export const bedrockProxyRoutes = bedrockProxyRoutesV2;
 // MiniMax proxy routes - V2 only (new provider, no legacy v1)
 export const minimaxProxyRoutes = minimaxProxyRoutesV2;
 export { default as secretsRoutes } from "./secrets";
+export { default as scheduleTriggersRoutes } from "./schedule-triggers";
 export { default as statisticsRoutes } from "./statistics";
 export { default as teamRoutes } from "./team";
 export { default as tokenRoutes } from "./token";

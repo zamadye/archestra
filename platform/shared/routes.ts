@@ -387,6 +387,17 @@ export const RouteId = {
   GetConnectorRuns: "getConnectorRuns",
   GetConnectorRun: "getConnectorRun",
 
+  // Schedule Trigger Routes
+  GetAgentScheduleTriggers: "getAgentScheduleTriggers",
+  CreateAgentScheduleTrigger: "createAgentScheduleTrigger",
+  GetScheduleTrigger: "getScheduleTrigger",
+  UpdateScheduleTrigger: "updateScheduleTrigger",
+  DeleteScheduleTrigger: "deleteScheduleTrigger",
+  EnableScheduleTrigger: "enableScheduleTrigger",
+  DisableScheduleTrigger: "disableScheduleTrigger",
+  ExecuteScheduleTrigger: "executeScheduleTrigger",
+  GetScheduleTriggerRuns: "getScheduleTriggerRuns",
+
   // Invitation Routes
   CheckInvitation: "checkInvitation",
 } as const;

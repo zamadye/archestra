@@ -20,6 +20,8 @@ export const TaskTypeSchema = z.enum([
   "connector_sync",
   "batch_embedding",
   "check_due_connectors",
+  "check_due_schedule_triggers",
+  "schedule_trigger_run_execute",
 ]);
 export type TaskType = z.infer<typeof TaskTypeSchema>;
 
@@ -30,6 +32,12 @@ export type ConnectorSyncPayload = {
 export type BatchEmbeddingPayload = {
   documentIds: string[];
   connectorRunId: string;
+};
+export type CheckDueScheduleTriggersPayload = {
+  maxBackfillRuns?: number;
+};
+export type ScheduleTriggerRunExecutePayload = {
+  runId: string;
 };
 
 export const SelectTaskSchema = createSelectSchema(schema.tasksTable, {

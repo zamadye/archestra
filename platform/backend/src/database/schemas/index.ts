@@ -69,3 +69,4 @@ export { default as usersTable } from "./user";
 export { default as userTokensTable } from "./user-token";
 export { default as verificationsTable } from "./verification";
 export { default as virtualApiKeysTable } from "./virtual-api-key";
+export { scheduleTriggersTable, scheduleTriggerRunsTable } from "./schedule-trigger";
